@@ -1,0 +1,19 @@
+.Pagenavigation{
+    border: 5px solid brown;
+    float: left;
+}
+.Pagenavigation li{
+    padding-bottom: 20px;
+    font-size: 30px;
+    list-style-type: none;
+    padding: 20px 20px;
+    float: center;
+}
+#home{
+    background-image: url("../image/backgrounds/hero.jpg");
+    background-size: 1300px;
+    background-repeat: no-repeat;
+}
+body{
+    background-color: cadetblue;
+}
