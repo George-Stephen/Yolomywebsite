@@ -1,19 +1,76 @@
-.Pagenavigation{
-    border: 5px solid brown;
-    float: left;
-}
-.Pagenavigation li{
-    padding-bottom: 20px;
-    font-size: 30px;
-    list-style-type: none;
-    padding: 20px 20px;
-    float: center;
-}
+
 #home{
     background-image: url("../image/backgrounds/hero.jpg");
-    background-size: 1300px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
-body{
-    background-color: cadetblue;
+.story{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.story p{
+    padding: 150px 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.shop{
+    float: right;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    float: left;
+}
+.products{
+    float: right;
+}
+button{
+    color: white;
+    background-color: brown;
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#selection{
+    background-color: rgb(75, 49, 49);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+.images{
+    float: left;
+    padding: 100px 140px;
+}
+#products{
+    display: block;
+    padding-right: 10px;
+    float: right;
+}
+#About{
+    text-align: center;
+    color:white;
+    background-image: url("../image/backgrounds/about.jpg");
+    padding: 110px 20px;
+    font-size: 16px;
+}
+#About{
+    border: 2px solid rgb(173, 148, 148);
+}
+#offer{
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 20px 30px;
+}
+.link{
+    float: left;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+#contact{
+    color: black;
+    background-color: rgb(15, 15, 15);
 }
